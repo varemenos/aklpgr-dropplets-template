@@ -20,7 +20,7 @@
 							<li><a href="<?php echo $blog_url;?>category/<?php echo trim($temp_category); ?>"><?php echo ucfirst(trim($temp_category)); ?></a></li>
 						<?php
 					}
-					uset($temp);
+					unset($temp);
 				?>
 			</ul>
 		</li>
