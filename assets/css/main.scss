@@ -1,0 +1,62 @@
+/********************************************************************************************
+
+AKLP.gr v0.0.1 by Adonis K. (varemenos.com)
+Based on Simple v1.0.2 by Jason Schuller (Jason.sc)
+
+*********************************************************************************************/
+
+@import 'lib/generic/_base';
+@import 'lib/generic/_borderbox';
+@import 'lib/modules/_grid';
+@import 'lib/modules/_blockquote';
+
+@include grid(12, 1em);
+
+$color: #222;
+$bgc: #eee;
+$fgc: #fff;
+
+body{
+	color: $color;
+	background-color: $bgc;
+	overflow-x: auto;
+	overflow-y: scroll;
+}
+
+#content,
+header,
+footer{
+	@include borderbox;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+#content{
+	padding: 1rem;
+	background-color: $fgc;
+	border: 1px solid darken($fgc, 15%);
+
+	@media only screen and (max-width: 1139px){
+		width: 100%;
+		border: none;
+	}
+}
+
+@import '_header';
+@import '_posts';
+@import '_footer';
+
+hr{
+	border-top: 2px dashed rgba(black, 0.2);
+	border-bottom: 2px dashed rgba(black, 0.2);
+	border-left: none;
+	border-right: none;
+}
+
+blockquote{
+	@include blockquote(rgba(black, 0.2));
+}
+
+code{
+	background-color: rgba(black, 0.05);
+}

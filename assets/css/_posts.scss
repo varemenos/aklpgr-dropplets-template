@@ -1,0 +1,58 @@
+.post{
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid darken($fgc, 15%);
+
+	&:last-child{
+		margin-bottom: 0;
+		padding-bottom: 0;
+		border-bottom: none;
+	}
+
+	&.single{
+		margin-bottom: 0;
+	}
+}
+
+.post--title{
+	h2{
+		margin-top: 0;
+		margin-bottom: 1rem;
+	}
+}
+
+.post--thumbnail{
+	@media only screen and (max-width: 1139px){
+		display: none;
+	}
+}
+
+
+.post--actions{
+	@include clearfix;
+	list-style: none;
+	list-style-image: none;
+	list-style-position: outside;
+	margin: 0;
+	padding: 0;
+
+	li{
+		float: left;
+
+		a{
+			display: block;
+			padding: 1rem;
+			background-color: darken($bgc, 1.5%);
+			border: 1px solid  $fgc;
+		}
+	}
+}
+
+.post--details{
+	p{
+		margin-top: 0;
+		text-align: justify;
+		word-wrap: break-word;
+		text-indent: 1em;
+	}
+}

@@ -1,0 +1,90 @@
+header{
+	padding: 1rem 0;
+}
+
+#brand {
+	margin: 0;
+	padding: 0.5rem 0;
+
+	a {
+		&,
+		&:visited{
+			display: inline-block;
+			text-decoration: none;
+			color: $color;
+		}
+
+		&:focus,
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
+
+.nav{
+	list-style: none;
+	list-style-image: none;
+	list-style-position: outside;
+	margin: 0;
+	padding: 0;
+
+	li{
+		display: inline-block;
+		position: relative;
+
+		a{
+			&,
+			&:visited{
+				display: inline-block;
+				padding: 1rem;
+				color: $color;
+				text-decoration: none;
+				background-color: $fgc;
+				border: 1px solid darken($fgc, 15%);
+			}
+
+			&:focus,
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.sub-nav{
+		display: none;
+		position: absolute;
+		left: 0;
+		list-style: none;
+		list-style-image: none;
+		list-style-position: outside;
+		margin: 0;
+		padding: 0;
+
+		li{
+			display: block;
+
+			a{
+				&,
+				&:visited{
+					display: block;
+					padding: 1rem;
+					border-top: none;
+					border-left: 1px solid darken($fgc, 15%);
+					border-bottom: 1px solid darken($fgc, 15%);
+					border-right: 1px solid darken($fgc, 15%);
+				}
+
+				&:focus,
+				&:hover{
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+
+	& li:hover{
+		.sub-nav{
+			display: block;
+		}
+	}
+}
