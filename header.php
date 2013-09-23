@@ -6,6 +6,7 @@
 		<li>
 			<a href="<?php echo $blog_url;?>">Home</a>
 		</li>
+		<?php if (get_all_posts()): ?>
 		<li>
 			<a href="">Categories</a>
 			<ul class="sub-nav">
@@ -19,9 +20,11 @@
 							<li><a href="<?php echo $blog_url;?>category/<?php echo trim($temp_category); ?>"><?php echo ucfirst(trim($temp_category)); ?></a></li>
 						<?php
 					}
+					uset($temp);
 				?>
 			</ul>
 		</li>
+		<?php endif ?>
 	</ul>
 </header>
 <div id="content">
