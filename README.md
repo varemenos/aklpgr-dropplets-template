@@ -1,5 +1,6 @@
-## AKLP.gr 0.0.1 by Adonis K. (varemenos.com)
-Made for http://aklp.gr
+# a Dropplets template for AKLP.gr by Adonis K. (varemenos.com)
+
+	Todo
 
 ### License
 [Creative Commons - CC BY-NC](http://creativecommons.org/licenses/by-nc/3.0/legalcode)
