@@ -11,7 +11,7 @@
 			<a href="">Categories</a>
 			<ul class="sub-nav">
 				<?php
-					$temp = [];
+					$temp = array();
 					foreach (get_all_posts() as $post) {
 						$temp[$post['post_category']] = true;
 					}
