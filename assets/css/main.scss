@@ -5,10 +5,10 @@ Based on Simple v1.0.2 by Jason Schuller (Jason.sc)
 
 *********************************************************************************************/
 
-@import 'css/lib/generic/_base';
-@import 'css/lib/generic/_borderbox';
-@import 'css/lib/modules/_grid';
-@import 'css/lib/modules/_blockquote';
+@import 'lib/generic/_base';
+@import 'lib/generic/_borderbox';
+@import 'lib/modules/_grid';
+@import 'lib/modules/_blockquote';
 
 @include grid(12, 1em);
 
@@ -42,9 +42,9 @@ footer{
 	}
 }
 
-@import 'css/_header';
-@import 'css/_posts';
-@import 'css/_footer';
+@import '_header';
+@import '_posts';
+@import '_footer';
 
 hr{
 	border-top: 2px dashed rgba(black, 0.2);
