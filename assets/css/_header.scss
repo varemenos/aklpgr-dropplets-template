@@ -1,23 +1,9 @@
-header{
-	padding: 1rem 0;
-}
-
 #brand {
 	margin: 0;
-	padding: 0.5rem 0;
+	padding: $small 0;
 
 	a {
-		&,
-		&:visited{
-			display: inline-block;
-			text-decoration: none;
-			color: $color;
-		}
-
-		&:focus,
-		&:hover{
-			text-decoration: underline;
-		}
+		display: inline-block;
 	}
 }
 
@@ -36,16 +22,10 @@ header{
 			&,
 			&:visited{
 				display: inline-block;
-				padding: 1rem;
-				color: $color;
-				text-decoration: none;
-				background-color: $fgc;
-				border: 1px solid darken($fgc, 15%);
-			}
-
-			&:focus,
-			&:hover{
-				text-decoration: underline;
+				padding: $medium;
+				color: $font-color-inv;
+				text-shadow: 1px 1px 0 lighten($font-color, 35%);
+				background-color: $main-color;
 			}
 		}
 	}
@@ -53,7 +33,7 @@ header{
 	.sub-nav{
 		display: none;
 		position: absolute;
-		left: 0;
+		left: $medium;
 		list-style: none;
 		list-style-image: none;
 		list-style-position: outside;
@@ -67,16 +47,10 @@ header{
 				&,
 				&:visited{
 					display: block;
-					padding: 1rem;
+					min-width: 7.5vw;
+					padding: $medium;
 					border-top: none;
-					border-left: 1px solid darken($fgc, 15%);
-					border-bottom: 1px solid darken($fgc, 15%);
-					border-right: 1px solid darken($fgc, 15%);
-				}
-
-				&:focus,
-				&:hover{
-					text-decoration: underline;
+					border-top: 1px solid darken($main-color, 3%);
 				}
 			}
 		}

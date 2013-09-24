@@ -5,40 +5,57 @@ Based on Simple v1.0.2 by Jason Schuller (Jason.sc)
 
 *********************************************************************************************/
 
+$font-color: #444;
+$font-color-inv: #fff;
+$main-color: #1693A5;
+$bgc: #98A8BA;
+$fgc: #fff;
+$medium: 1rem;
+$small: $medium/2;
+$large: 2*$medium;
+$xlarge: 4*$medium;
+
 @import 'lib/generic/_base';
 @import 'lib/generic/_borderbox';
 @import 'lib/modules/_grid';
 @import 'lib/modules/_blockquote';
-
-@include grid(12, 1em);
-
-$color: #222;
-$bgc: #eee;
-$fgc: #fff;
+@include grid(12, $medium);
 
 body{
-	color: $color;
+	color: lighten($font-color, 15%);
 	background-color: $bgc;
 	overflow-x: auto;
 	overflow-y: scroll;
+	@include borderbox;
+	max-width: 1140px;
+	margin: 0 auto;
+	padding-bottom: $medium;
+}
+
+a{
+	&,
+	&:visited{
+		text-decoration: none;
+		color: $font-color;
+	}
+
+	&:focus,
+	&:hover{
+		text-decoration: underline;
+	}
 }
 
 #content,
 header,
 footer{
-	@include borderbox;
-	max-width: 1140px;
-	margin: 0 auto;
+	margin-top: $medium;
+	padding: $medium;
+	background-color: $fgc;
 }
 
 #content{
-	padding: 1rem;
-	background-color: $fgc;
-	border: 1px solid darken($fgc, 15%);
-
 	@media only screen and (max-width: 1139px){
 		width: 100%;
-		border: none;
 	}
 }
 
@@ -54,7 +71,7 @@ hr{
 }
 
 blockquote{
-	@include blockquote(rgba(black, 0.2));
+	@include blockquote($main-color);
 }
 
 code{

@@ -530,7 +530,7 @@ veGrid - Grid System by Adonis K.
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
-  padding-bottom: 1em;
+  padding-bottom: 1rem;
 }
 .row:before, .row:after {
   content: " ";
@@ -552,7 +552,7 @@ veGrid - Grid System by Adonis K.
   box-sizing: border-box;
   display: block;
   float: left;
-  padding-right: 1em;
+  padding-right: 1rem;
 }
 .row > *:last-child {
   padding-right: 0;
@@ -562,7 +562,7 @@ veGrid - Grid System by Adonis K.
     width: 100%;
     float: none;
     padding: 0;
-    padding-bottom: 1em;
+    padding-bottom: 1rem;
   }
   .row > *:last-child {
     padding-bottom: 0;
@@ -570,50 +570,47 @@ veGrid - Grid System by Adonis K.
 }
 
 body {
-  color: #222222;
-  background-color: #eeeeee;
+  color: #6a6a6a;
+  background-color: #98a8ba;
   overflow-x: auto;
   overflow-y: scroll;
-}
-
-#content,
-header,
-footer {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   max-width: 1140px;
   margin: 0 auto;
+  padding-bottom: 1rem;
 }
 
-#content {
+a, a:visited {
+  text-decoration: none;
+  color: #444444;
+}
+a:focus, a:hover {
+  text-decoration: underline;
+}
+
+#content,
+header,
+footer {
+  margin-top: 1rem;
   padding: 1rem;
   background-color: white;
-  border: 1px solid #d9d9d9;
 }
+
 @media only screen and (max-width: 1139px) {
   #content {
     width: 100%;
-    border: none;
   }
-}
-
-header {
-  padding: 1rem 0;
 }
 
 #brand {
   margin: 0;
   padding: 0.5rem 0;
 }
-#brand a, #brand a:visited {
+#brand a {
   display: inline-block;
-  text-decoration: none;
-  color: #222222;
-}
-#brand a:focus, #brand a:hover {
-  text-decoration: underline;
 }
 
 .nav {
@@ -630,18 +627,14 @@ header {
 .nav li a, .nav li a:visited {
   display: inline-block;
   padding: 1rem;
-  color: #222222;
-  text-decoration: none;
-  background-color: white;
-  border: 1px solid #d9d9d9;
-}
-.nav li a:focus, .nav li a:hover {
-  text-decoration: underline;
+  color: white;
+  text-shadow: 1px 1px 0 #9d9d9d;
+  background-color: #1693a5;
 }
 .nav .sub-nav {
   display: none;
   position: absolute;
-  left: 0;
+  left: 1rem;
   list-style: none;
   list-style-image: none;
   list-style-position: outside;
@@ -653,14 +646,10 @@ header {
 }
 .nav .sub-nav li a, .nav .sub-nav li a:visited {
   display: block;
+  min-width: 7.5vw;
   padding: 1rem;
   border-top: none;
-  border-left: 1px solid #d9d9d9;
-  border-bottom: 1px solid #d9d9d9;
-  border-right: 1px solid #d9d9d9;
-}
-.nav .sub-nav li a:focus, .nav .sub-nav li a:hover {
-  text-decoration: underline;
+  border-top: 1px solid #148798;
 }
 .nav li:hover .sub-nav {
   display: block;
@@ -669,7 +658,7 @@ header {
 .post {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #d9d9d9;
+  border-bottom: 1px solid #1693a5;
 }
 .post:last-child {
   margin-bottom: 0;
@@ -683,6 +672,12 @@ header {
 .post--title h2 {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+.post--title h2 a {
+  display: inline-block;
+}
+.post--title h2 a:focus, .post--title h2 a:hover {
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1139px) {
@@ -711,11 +706,12 @@ header {
 .post--actions li {
   float: left;
 }
-.post--actions li a {
+.post--actions li a, .post--actions li a:visited {
   display: block;
+  color: white;
   padding: 1rem;
-  background-color: #eaeaea;
-  border: 1px solid white;
+  background-color: #158d9e;
+  border-left: 1px solid white;
 }
 
 .post--details p {
@@ -727,7 +723,7 @@ header {
 
 footer p {
   margin: 0;
-  padding: 1em 0;
+  padding: 1rem 0;
   text-align: center;
 }
 
@@ -741,7 +737,7 @@ hr {
 blockquote {
   margin: 0;
   padding: 0 0 0 0.5em;
-  border-left: 0.25em solid rgba(0, 0, 0, 0.2);
+  border-left: 0.25em solid #1693a5;
 }
 blockquote > * {
   margin: 0.5em 0;

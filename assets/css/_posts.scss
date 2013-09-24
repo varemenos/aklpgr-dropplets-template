@@ -1,7 +1,7 @@
 .post{
-	margin-bottom: 1rem;
-	padding-bottom: 1rem;
-	border-bottom: 1px solid darken($fgc, 15%);
+	margin-bottom: $medium;
+	padding-bottom: $medium;
+	border-bottom: 1px solid $main-color;
 
 	&:last-child{
 		margin-bottom: 0;
@@ -17,7 +17,16 @@
 .post--title{
 	h2{
 		margin-top: 0;
-		margin-bottom: 1rem;
+		margin-bottom: $medium;
+
+		a{
+			display: inline-block;
+
+			&:focus,
+			&:hover{
+				text-decoration: none;
+			}
+		}
 	}
 }
 
@@ -40,10 +49,14 @@
 		float: left;
 
 		a{
-			display: block;
-			padding: 1rem;
-			background-color: darken($bgc, 1.5%);
-			border: 1px solid  $fgc;
+			&,
+			&:visited{
+				display: block;
+				color: $font-color-inv;
+				padding: $medium;
+				background-color: darken($main-color, 1.5%);
+				border-left: 1px solid  $fgc;
+			}
 		}
 	}
 }

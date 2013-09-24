@@ -1,4 +1,4 @@
-<article class="<?php echo($post_status); ?> post">
+<article class="post">
 	<div class="post--title">
 		<h2><a href="<?php echo($post_link); ?>"><?php echo($post_title); ?></a></h2>
 	</div>
@@ -15,7 +15,9 @@
 
 			<div class="post--meta">
 				<ul>
-					<li>By: <?php echo($post_author); ?></li>
+					<?php if (trim($post_author) !== 'Adonis K.'): ?>
+						<li>By: <?php echo($post_author); ?></li>
+					<?php endif ?>
 					<li>Category: <a href="<?php echo($post_category_link); ?>"><?php echo($post_category); ?></a></li>
 					<li><?php echo($published_date); ?></li>
 				</ul>
