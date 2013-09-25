@@ -75,7 +75,13 @@ hr{
 }
 
 blockquote{
-	@include blockquote($main-color);
+	border-left: $medium solid $main-color;
+
+	& > * {
+		margin: $small 0;
+		padding: $medium;
+		background-color: $bgc2;
+	}
 }
 
 code{

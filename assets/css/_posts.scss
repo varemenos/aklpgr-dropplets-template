@@ -17,7 +17,7 @@
 	h2{
 		margin-top: 0;
 		margin-bottom: $medium;
-		padding: 1rem;
+		padding: $medium;
 		background-color: $bgc2;
 		text-shadow: 0 1px 0 $fgc;
 
@@ -72,6 +72,6 @@
 		margin-top: 0;
 		text-align: justify;
 		word-wrap: break-word;
-		text-indent: 1em;
+		text-indent: $medium;
 	}
 }

@@ -734,7 +734,7 @@ footer {
   margin-top: 0;
   text-align: justify;
   word-wrap: break-word;
-  text-indent: 1em;
+  text-indent: 1rem;
 }
 
 footer p {
@@ -751,22 +751,12 @@ hr {
 }
 
 blockquote {
-  margin: 0;
-  padding: 0 0 0 0.5em;
-  border-left: 0.25em solid #3498db;
+  border-left: 1rem solid #3498db;
 }
 blockquote > * {
-  margin: 0.5em 0;
-  padding: 0.25em 0;
-}
-blockquote > p {
-  text-indent: 1em;
-}
-blockquote cite {
-  font-style: italic;
-}
-blockquote cite:before {
-  content: "\2014 \2009";
+  margin: 0.5rem 0;
+  padding: 1rem;
+  background-color: #dddddd;
 }
 
 code {
