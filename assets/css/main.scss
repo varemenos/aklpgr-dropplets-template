@@ -9,7 +9,7 @@ $font-color: #444;
 $font-color-inv: #fff;
 $main-color: #3498db;
 $bgc: #7f8c8d;
-$bgc2: #ddd;
+$bgc2: #e2e2e2;
 $fgc: #fff;
 $medium: 1rem;
 $small: $medium/2;
@@ -75,7 +75,8 @@ hr{
 }
 
 blockquote{
-	border-left: $medium solid $main-color;
+	margin: $medium;
+	border-left: $medium solid $bgc2;
 
 	& > * {
 		margin: $small 0;
