@@ -664,23 +664,27 @@ footer {
 }
 
 .post {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
   margin-bottom: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #7f8c8d;
 }
 .post:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
-  border-bottom: none;
 }
 .post.single {
   margin-bottom: 0;
-  border-bottom: none;
 }
 
 .post--title h2 {
   margin-top: 0;
   margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #dddddd;
+  text-shadow: 0 1px 0 white;
 }
 .post--title h2 a {
   display: inline-block;
@@ -689,6 +693,9 @@ footer {
   text-decoration: underline;
 }
 
+.post--thumbnail img {
+  max-width: 100%;
+}
 @media only screen and (max-width: 1139px) {
   .post--thumbnail {
     display: none;

@@ -1,17 +1,15 @@
 .post{
+	@include borderbox;
 	margin-bottom: $medium;
 	padding-bottom: $medium;
-	border-bottom: 1px solid $bgc;
 
 	&:last-child{
 		margin-bottom: 0;
 		padding-bottom: 0;
-		border-bottom: none;
 	}
 
 	&.single{
 		margin-bottom: 0;
-		border-bottom: none;
 	}
 }
 
@@ -19,6 +17,9 @@
 	h2{
 		margin-top: 0;
 		margin-bottom: $medium;
+		padding: 1rem;
+		background-color: $bgc2;
+		text-shadow: 0 1px 0 $fgc;
 
 		a{
 			display: inline-block;
@@ -32,6 +33,10 @@
 }
 
 .post--thumbnail{
+	img{
+		max-width: 100%;
+	}
+
 	@media only screen and (max-width: 1139px){
 		display: none;
 	}
