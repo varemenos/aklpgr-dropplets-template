@@ -1,6 +1,16 @@
+header{
+	& > #brand,
+	& > .nav{
+		@media only screen and (max-width: 1139px){
+			width: 100%;
+			float: none;
+		}
+	}
+}
+
 #brand {
 	margin: 0;
-	padding: $small 0;
+	padding: 0;
 
 	a {
 		display: inline-block;
@@ -18,14 +28,29 @@
 		display: inline-block;
 		position: relative;
 
-		a{
-			&,
-			&:visited{
+		@media only screen and (max-width: 1139px){
+			display: block;
+		}
+	}
+
+	a{
+		&,
+		&:visited{
+			display: inline-block;
+			padding: $medium;
+			color: $font-color-inv;
+			text-shadow: 1px 1px 0 lighten($font-color, 35%);
+			background-color: $main-color;
+
+			@media only screen and (max-width: 1139px){
+				@include borderbox;
+				width: 100%;
+			}
+
+			i{
 				display: inline-block;
-				padding: $medium;
-				color: $font-color-inv;
-				text-shadow: 1px 1px 0 lighten($font-color, 35%);
-				background-color: $main-color;
+				margin-right: $small;
+				text-decoration: none;
 			}
 		}
 	}
@@ -40,17 +65,30 @@
 		margin: 0;
 		padding: 0;
 
+		@media only screen and (max-width: 1139px){
+			display: block;
+			position: relative;
+			top: 0;
+			left: 0;
+		}
+
 		li{
 			display: block;
+		}
 
-			a{
-				&,
-				&:visited{
-					display: block;
-					min-width: 7.5vw;
-					padding: $medium;
-					border-top: none;
-					border-top: 1px solid darken($main-color, 3%);
+		a{
+			&,
+			&:visited{
+				display: block;
+				min-width: 7.5vw;
+				padding: $medium;
+				border-top: none;
+				border-top: 1px solid darken($main-color, 3%);
+
+				@media only screen and (max-width: 1139px){
+					min-width: auto;
+					padding-left: $xlarge;
+					border: none;
 				}
 			}
 		}

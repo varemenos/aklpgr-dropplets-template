@@ -1,3 +1,5 @@
+@import 'font-awesome';
+
 @mixin font-face($name, $url){
 	@font-face{
 		font-family: $name;
@@ -8,4 +10,80 @@
 	}
 }
 
-@include font-face('Colab', '../fonts/Colab');
+@include font-face('FiraSans-Regular', '../fonts/FiraSans-Regular');
+@include font-face('FiraSans-Bold', '../fonts/FiraSans-Bold');
+@include font-face('icomoon', '../fonts/icomoon');
+
+.icon-feed, .icon-home, .icon-tags, .icon-menu, .icon-calendar, .icon-quotes-left, .icon-spinner, .icon-facebook, .icon-twitter, .icon-google-plus, .icon-youtube, .icon-vimeo, .icon-github, .icon-android, .icon-windows, .icon-linkedin, .icon-chrome, .icon-firefox, .icon-IE, .icon-opera, .icon-safari {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-feed:before {
+	content: "\e000";
+}
+.icon-home:before {
+	content: "\e001";
+}
+.icon-tags:before {
+	content: "\e002";
+}
+.icon-menu:before {
+	content: "\e003";
+}
+.icon-calendar:before {
+	content: "\e005";
+}
+.icon-quotes-left:before {
+	content: "\e004";
+}
+.icon-spinner:before {
+	content: "\e006";
+}
+.icon-facebook:before {
+	content: "\e007";
+}
+.icon-twitter:before {
+	content: "\e008";
+}
+.icon-google-plus:before {
+	content: "\e009";
+}
+.icon-youtube:before {
+	content: "\e00a";
+}
+.icon-vimeo:before {
+	content: "\e00b";
+}
+.icon-github:before {
+	content: "\e00c";
+}
+.icon-android:before {
+	content: "\e00d";
+}
+.icon-windows:before {
+	content: "\e00e";
+}
+.icon-linkedin:before {
+	content: "\e00f";
+}
+.icon-chrome:before {
+	content: "\e010";
+}
+.icon-firefox:before {
+	content: "\e011";
+}
+.icon-IE:before {
+	content: "\e012";
+}
+.icon-opera:before {
+	content: "\e013";
+}
+.icon-safari:before {
+	content: "\e014";
+}

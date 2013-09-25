@@ -4,11 +4,11 @@
 	</h1>
 	<ul id="navigation" class="nav float--right">
 		<li>
-			<a href="<?php echo $blog_url;?>">Home</a>
+			<a href="<?php echo $blog_url;?>"><i class="icon-home"></i> Home</a>
 		</li>
 		<?php if (get_all_posts()): ?>
 		<li>
-			<a href="">Categories</a>
+			<a href=""><i class="icon-tags"></i> Categories</a>
 			<ul class="sub-nav">
 				<?php
 					$temp = array();
@@ -25,6 +25,9 @@
 			</ul>
 		</li>
 		<?php endif ?>
+		<li>
+			<a href="<?php echo $blog_url;?>/rss" target="_blank"><i class="icon-feed"></i> RSS</a>
+		</li>
 	</ul>
 </header>
 <div id="content">

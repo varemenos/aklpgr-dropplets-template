@@ -20,14 +20,14 @@
 		padding: $medium;
 		background-color: $bgc2;
 		text-shadow: 0 1px 0 $fgc;
+	}
 
-		a{
-			display: inline-block;
+	a{
+		display: inline-block;
 
-			&:focus,
-			&:hover{
-				text-decoration: underline;
-			}
+		&:focus,
+		&:hover{
+			text-decoration: underline;
 		}
 	}
 }
@@ -54,14 +54,22 @@
 	li{
 		float: left;
 
-		a{
-			&,
-			&:visited{
-				display: block;
-				color: $font-color-inv;
+		@media only screen and (max-width: 1139px){
+			float: none;
+		}
+	}
+
+	a{
+		&,
+		&:visited{
+			display: block;
+			color: $font-color-inv;
+			padding: $small;
+			background-color: darken($main-color, 1.5%);
+			border-left: 1px solid  $fgc;
+
+			@media only screen and (max-width: 1139px){
 				padding: $medium;
-				background-color: darken($main-color, 1.5%);
-				border-left: 1px solid  $fgc;
 			}
 		}
 	}

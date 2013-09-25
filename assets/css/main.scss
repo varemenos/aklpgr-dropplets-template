@@ -9,7 +9,7 @@ $font-color: #444;
 $font-color-inv: #fff;
 $main-color: #3498db;
 $bgc: #7f8c8d;
-$bgc2: #e2e2e2;
+$bgc2: #eee;
 $fgc: #fff;
 $medium: 1rem;
 $small: $medium/2;
@@ -25,15 +25,15 @@ $xlarge: 4*$medium;
 @import '_fonts';
 
 body{
-	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
-	color: lighten($font-color, 15%);
-	background-color: $bgc;
 	overflow-x: auto;
 	overflow-y: scroll;
-	@include borderbox;
 	max-width: 1140px;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 	padding-bottom: $medium;
+	font-family: 'FiraSans-Regular', 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	color: lighten($font-color, 15%);
+	background-color: $bgc;
 }
 
 a{
@@ -49,9 +49,19 @@ a{
 	}
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: 'FiraSans-Bold', 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+}
+
 #content,
 header,
 footer{
+	@include borderbox;
 	margin-top: $medium;
 	padding: $medium;
 	background-color: $fgc;
