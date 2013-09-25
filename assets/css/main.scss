@@ -76,7 +76,7 @@ hr{
 
 blockquote{
 	margin: $medium;
-	border-left: $medium solid $bgc2;
+	border-left: $small solid $main-color;
 
 	& > * {
 		margin: $small 0;

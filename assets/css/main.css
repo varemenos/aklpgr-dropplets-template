@@ -752,7 +752,7 @@ hr {
 
 blockquote {
   margin: 1rem;
-  border-left: 1rem solid #e2e2e2;
+  border-left: 0.5rem solid #3498db;
 }
 blockquote > * {
   margin: 0.5rem 0;
