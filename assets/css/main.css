@@ -569,9 +569,17 @@ veGrid - Grid System by Adonis K.
   }
 }
 
+@font-face {
+  font-family: "Colab";
+  src: url("../fonts/Colab.woff") format("woff"), url("../fonts/Colab.svg#Colab") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
+  font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
   color: #6a6a6a;
-  background-color: #98a8ba;
+  background-color: #7f8c8d;
   overflow-x: auto;
   overflow-y: scroll;
   -webkit-box-sizing: border-box;
@@ -629,7 +637,7 @@ footer {
   padding: 1rem;
   color: white;
   text-shadow: 1px 1px 0 #9d9d9d;
-  background-color: #1693a5;
+  background-color: #3498db;
 }
 .nav .sub-nav {
   display: none;
@@ -649,7 +657,7 @@ footer {
   min-width: 7.5vw;
   padding: 1rem;
   border-top: none;
-  border-top: 1px solid #148798;
+  border-top: 1px solid #2791d9;
 }
 .nav li:hover .sub-nav {
   display: block;
@@ -658,7 +666,7 @@ footer {
 .post {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #1693a5;
+  border-bottom: 1px solid #7f8c8d;
 }
 .post:last-child {
   margin-bottom: 0;
@@ -667,6 +675,7 @@ footer {
 }
 .post.single {
   margin-bottom: 0;
+  border-bottom: none;
 }
 
 .post--title h2 {
@@ -677,7 +686,7 @@ footer {
   display: inline-block;
 }
 .post--title h2 a:focus, .post--title h2 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 1139px) {
@@ -710,7 +719,7 @@ footer {
   display: block;
   color: white;
   padding: 1rem;
-  background-color: #158d9e;
+  background-color: #2e95da;
   border-left: 1px solid white;
 }
 
@@ -737,7 +746,7 @@ hr {
 blockquote {
   margin: 0;
   padding: 0 0 0 0.5em;
-  border-left: 0.25em solid #1693a5;
+  border-left: 0.25em solid #3498db;
 }
 blockquote > * {
   margin: 0.5em 0;

@@ -7,8 +7,8 @@ Based on Simple v1.0.2 by Jason Schuller (Jason.sc)
 
 $font-color: #444;
 $font-color-inv: #fff;
-$main-color: #1693A5;
-$bgc: #98A8BA;
+$main-color: #3498db;
+$bgc: #7f8c8d;
 $fgc: #fff;
 $medium: 1rem;
 $small: $medium/2;
@@ -21,7 +21,10 @@ $xlarge: 4*$medium;
 @import 'lib/modules/_blockquote';
 @include grid(12, $medium);
 
+@import '_fonts';
+
 body{
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
 	color: lighten($font-color, 15%);
 	background-color: $bgc;
 	overflow-x: auto;

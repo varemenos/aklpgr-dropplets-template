@@ -13,11 +13,11 @@
 				<?php
 					$temp = array();
 					foreach (get_all_posts() as $post) {
-						$temp[$post['post_category']] = true;
+						$temp[trim($post['post_category'])] = true;
 					}
 					foreach (array_keys($temp) as $temp_category) {
 						?>
-							<li><a href="<?php echo $blog_url;?>category/<?php echo trim($temp_category); ?>"><?php echo ucfirst(trim($temp_category)); ?></a></li>
+							<li><a href="<?php echo $blog_url;?>category/<?php echo $temp_category; ?>"><?php echo $temp_category; ?></a></li>
 						<?php
 					}
 					unset($temp);

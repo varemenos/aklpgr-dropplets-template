@@ -1,7 +1,7 @@
 .post{
 	margin-bottom: $medium;
 	padding-bottom: $medium;
-	border-bottom: 1px solid $main-color;
+	border-bottom: 1px solid $bgc;
 
 	&:last-child{
 		margin-bottom: 0;
@@ -11,6 +11,7 @@
 
 	&.single{
 		margin-bottom: 0;
+		border-bottom: none;
 	}
 }
 
@@ -24,7 +25,7 @@
 
 			&:focus,
 			&:hover{
-				text-decoration: none;
+				text-decoration: underline;
 			}
 		}
 	}
