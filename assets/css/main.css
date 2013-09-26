@@ -759,6 +759,12 @@ footer {
   display: inline-block;
 }
 
+@media only screen and (max-width: 1139px) {
+  #navigation {
+    margin-top: 1rem;
+  }
+}
+
 .nav {
   list-style: none;
   list-style-image: none;

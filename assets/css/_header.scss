@@ -17,6 +17,12 @@ header{
 	}
 }
 
+#navigation{
+	@media only screen and (max-width: 1139px){
+		margin-top: $medium;
+	}
+}
+
 .nav{
 	list-style: none;
 	list-style-image: none;
