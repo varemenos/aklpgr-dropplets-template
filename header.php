@@ -26,7 +26,7 @@
 		</li>
 		<?php endif ?>
 		<li>
-			<a href="<?php echo $blog_url;?>/rss" target="_blank"><i class="icon-feed"></i> RSS</a>
+			<a href="<?php echo $blog_url;?>rss" target="_blank"><i class="icon-feed"></i> RSS</a>
 		</li>
 	</ul>
 </header>
