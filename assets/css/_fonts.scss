@@ -1,5 +1,3 @@
-@import 'font-awesome';
-
 @mixin font-face($name, $url){
 	@font-face{
 		font-family: $name;

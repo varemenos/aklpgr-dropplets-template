@@ -34,6 +34,10 @@ body{
 	font-family: 'FiraSans-Regular', 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
 	color: lighten($font-color, 15%);
 	background-color: $bgc;
+
+	@media only screen and (max-width: 1139px){
+		padding-bottom: 0;
+	}
 }
 
 a{
@@ -65,6 +69,10 @@ footer{
 	margin-top: $medium;
 	padding: $medium;
 	background-color: $fgc;
+
+	@media only screen and (max-width: 1139px){
+		margin-top: 0;
+	}
 }
 
 #content{
