@@ -961,8 +961,8 @@ code {
     position: absolute !important;
   }
   #dp-dropplets-icon:focus, #dp-dropplets-icon:hover {
-    -webkit-box-shadow: inset 0 0 20px #196090;
-    -moz-box-shadow: inset 0 0 20px #196090;
-    box-shadow: inset 0 0 20px #196090;
+    -webkit-box-shadow: inset 0 0 20px #196090 !important;
+    -moz-box-shadow: inset 0 0 20px #196090 !important;
+    box-shadow: inset 0 0 20px #196090 !important;
   }
 }
