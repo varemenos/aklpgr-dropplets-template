@@ -945,3 +945,16 @@ blockquote > * {
 code {
   background-color: rgba(0, 0, 0, 0.05);
 }
+
+@media only screen and (max-width: 1139px) {
+  #dp-dropplets-icon {
+    background-color: #3498db !important;
+    text-shadow: 0 0 10px transparent !important;
+    -webkit-box-shadow: inset 0 0 20px #196090;
+    -moz-box-shadow: inset 0 0 20px #196090;
+    box-shadow: inset 0 0 20px #196090;
+    left: auto !important;
+    right: 1rem !important;
+    position: absolute !important;
+  }
+}

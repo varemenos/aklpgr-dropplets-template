@@ -18,6 +18,7 @@ $xlarge: 4*$medium;
 
 @import 'lib/generic/_base';
 @import 'lib/generic/_borderbox';
+@import 'lib/generic/_box-shadow';
 @import 'lib/modules/_grid';
 @import 'lib/modules/_blockquote';
 @include grid(12, $medium);
@@ -105,4 +106,15 @@ blockquote{
 
 code{
 	background-color: rgba(black, 0.05);
+}
+
+#dp-dropplets-icon{
+	@media only screen and (max-width: 1139px){
+		background-color: $main-color !important;
+		text-shadow: 0 0 10px transparent !important;
+		@include box-shadow(inset 0 0 20px darken($main-color, 20%));
+		left: auto !important;
+		right: $medium !important;
+		position: absolute !important;
+	}
 }
