@@ -902,12 +902,12 @@ header {
   text-decoration: underline;
 }
 
-.post--thumbnail img {
+.post--aside img {
   width: 100%;
   height: auto;
 }
 @media only screen and (max-width: 1139px) {
-  .post--thumbnail {
+  .post--aside {
     display: none;
   }
 }

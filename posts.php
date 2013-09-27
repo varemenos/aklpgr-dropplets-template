@@ -4,7 +4,7 @@
 	</div>
 
 	<div class="row">
-		<div class="col-3-12 post--thumbnail">
+		<div class="col-3-12 post--aside">
 				<img src="<?php echo($post_image); ?>" alt="<?php echo($post_title); ?>" />
 		</div>
 
