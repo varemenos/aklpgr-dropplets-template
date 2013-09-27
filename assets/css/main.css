@@ -887,6 +887,9 @@ header {
 .post.single {
   margin-bottom: 0;
 }
+.post.single .post--meta ul {
+  background-color: #eeeeee;
+}
 
 .post--title h2 {
   margin-top: 0;
@@ -963,7 +966,6 @@ header {
   list-style-position: outside;
   margin: 0 0 1rem 0;
   padding: 0.5rem;
-  background-color: #eeeeee;
 }
 
 footer p {

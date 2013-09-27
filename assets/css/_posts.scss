@@ -10,6 +10,12 @@
 
 	&.single{
 		margin-bottom: 0;
+
+		.post--meta{
+			ul{
+				background-color: $bgc2;
+			}
+		}
 	}
 }
 
@@ -94,6 +100,5 @@
 
 		margin: 0 0 $medium 0;
 		padding: $small;
-		background-color: $bgc2;
 	}
 }
