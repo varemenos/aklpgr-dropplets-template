@@ -95,12 +95,14 @@ header{
 		list-style-position: outside;
 		margin: 0;
 		padding: 0;
+		border-top: 0.5rem solid transparent;
 
 		@media only screen and (max-width: 1139px){
 			display: block;
 			position: relative;
 			top: 0;
 			left: 0;
+			border-top: none;
 		}
 
 		li{
