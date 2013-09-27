@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="<?php echo $blog_url; ?>templates/<?php echo $template; ?>/assets/css/main.css">
 		<?php echo $page_meta; ?>
 		<?php get_header(); ?>
+		<link rel="shortcut icon" href="<?php echo $blog_url; ?>templates/<?php echo $template; ?>/favicon.ico">
 	</head>
 	<body>
 		<?php
