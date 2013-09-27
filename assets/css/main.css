@@ -970,8 +970,8 @@ hr {
 }
 
 blockquote {
-  margin: 1rem;
-  border-left: 0.5rem solid #3498db;
+  margin: 1rem 0;
+  border-left: 0.5rem solid #d4d4d4;
 }
 blockquote > * {
   margin: 0.5rem 0;

@@ -94,8 +94,8 @@ hr{
 }
 
 blockquote{
-	margin: $medium;
-	border-left: $small solid $main-color;
+	margin: $medium 0;
+	border-left: $small solid darken($bgc2, 10%);
 
 	& > * {
 		margin: $small 0;
