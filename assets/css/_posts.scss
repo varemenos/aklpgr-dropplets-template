@@ -34,7 +34,8 @@
 
 .post--thumbnail{
 	img{
-		max-width: 100%;
+		width: 100%;
+		height: auto;
 	}
 
 	@media only screen and (max-width: 1139px){
@@ -81,5 +82,18 @@
 		text-align: justify;
 		word-wrap: break-word;
 		text-indent: $medium;
+	}
+}
+
+
+.post--meta{
+	ul {
+		list-style: none;
+		list-style-image: none;
+		list-style-position: outside;
+
+		margin: 0 0 $medium 0;
+		padding: $small;
+		background-color: $bgc2;
 	}
 }

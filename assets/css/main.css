@@ -903,7 +903,8 @@ header {
 }
 
 .post--thumbnail img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 @media only screen and (max-width: 1139px) {
   .post--thumbnail {
@@ -954,6 +955,15 @@ header {
   text-align: justify;
   word-wrap: break-word;
   text-indent: 1rem;
+}
+
+.post--meta ul {
+  list-style: none;
+  list-style-image: none;
+  list-style-position: outside;
+  margin: 0 0 1rem 0;
+  padding: 0.5rem;
+  background-color: #eeeeee;
 }
 
 footer p {

@@ -6,12 +6,6 @@
 	<div class="row">
 		<div class="col-3-12 post--thumbnail">
 			<img src="<?php echo($post_image); ?>" alt="<?php echo($post_title); ?>" />
-		</div>
-
-		<div class="col-9-12">
-			<div class="post--details">
-				<?php echo($post_content); ?>
-			</div>
 
 			<div class="post--meta">
 				<ul>
@@ -21,6 +15,12 @@
 					<li>Category: <a href="<?php echo($post_category_link); ?>"><?php echo($post_category); ?></a></li>
 					<li><?php echo($published_date); ?></li>
 				</ul>
+			</div>
+		</div>
+
+		<div class="col-9-12">
+			<div class="post--details">
+				<?php echo($post_content); ?>
 			</div>
 
 			<ul class="post--actions">
