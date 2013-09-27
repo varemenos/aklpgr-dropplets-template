@@ -7,4 +7,4 @@ Made by [Adonis K.](varemenos.com)
 	Todo
 
 ## License
-[Creative Commons - CC BY-NC](http://creativecommons.org/licenses/by-nc/3.0/legalcode)
+This work is licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/deed.en_US).
