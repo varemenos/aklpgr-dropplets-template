@@ -108,6 +108,11 @@ code{
 	background-color: rgba(black, 0.05);
 }
 
+code[class*="language-"],
+pre[class*="language-"]{
+	background-color: transparent;
+}
+
 #dp-dropplets-icon{
 	@media only screen and (max-width: 1139px){
 		background-color: $main-color !important;
@@ -122,3 +127,5 @@ code{
 		}
 	}
 }
+
+@import '_prism';
