@@ -93,6 +93,7 @@ header{
 		list-style: none;
 		list-style-image: none;
 		list-style-position: outside;
+		min-width: 10vw;
 		margin: 0;
 		padding: 0;
 		border-top: 0.5rem solid transparent;
@@ -102,6 +103,7 @@ header{
 			position: relative;
 			top: 0;
 			left: 0;
+			min-width: auto;
 			border-top: none;
 		}
 
@@ -113,13 +115,11 @@ header{
 			&,
 			&:visited{
 				display: block;
-				min-width: 7.5vw;
 				padding: $medium;
 				border-top: none;
 				border-top: 1px solid darken($main-color, 3%);
 
 				@media only screen and (max-width: 1139px){
-					min-width: auto;
 					padding-left: $xlarge;
 					border: none;
 				}
