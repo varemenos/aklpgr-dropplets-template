@@ -1,6 +1,9 @@
 <header class="clearfix">
 	<h1 id="brand" class="float--left">
-		<a href="<?php echo $blog_url; ?>"><?php echo $blog_title; ?></a>
+		<a href="<?php echo $blog_url; ?>">
+			<span class="brand--title"><?php echo $blog_title; ?></span>
+			<img src="<?php echo $blog_url; ?>templates/<?php echo $template; ?>/assets/img/logo.jpg" alt="<?php echo $blog_title ?>" class="brand--image">
+		</a>
 	</h1>
 	<ul id="navigation" class="nav float--right">
 		<li>
