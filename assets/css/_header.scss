@@ -120,7 +120,7 @@ header{
 				border-top: 1px solid darken($main-color, 3%);
 
 				@media only screen and (max-width: 1139px){
-					padding-left: $xlarge;
+					padding: $medium $medium $medium $xlarge;
 					border: none;
 				}
 			}

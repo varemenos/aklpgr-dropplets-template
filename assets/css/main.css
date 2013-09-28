@@ -864,7 +864,7 @@ header {
 }
 @media only screen and (max-width: 1139px) {
   .nav .sub-nav a, .nav .sub-nav a:visited {
-    padding-left: 4rem;
+    padding: 1rem 1rem 1rem 4rem;
     border: none;
   }
 }
