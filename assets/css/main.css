@@ -962,6 +962,11 @@ header {
   word-wrap: break-word;
   text-indent: 1rem;
 }
+@media only screen and (max-width: 1139px) {
+  .post--details {
+    width: 100%;
+  }
+}
 
 .post--meta ul {
   list-style: none;
