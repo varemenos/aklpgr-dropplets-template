@@ -72,7 +72,7 @@
 			display: block;
 			color: $font-color-inv;
 			padding: $small;
-			background-color: darken($main-color, 1.5%);
+			background-color: $main-color;
 			border-left: 1px solid  $fgc;
 
 			@media only screen and (max-width: 1139px){
