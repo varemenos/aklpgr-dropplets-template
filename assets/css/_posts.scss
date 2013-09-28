@@ -83,6 +83,10 @@
 }
 
 .post--details{
+	& > *:first-child{
+		margin-top: 0;
+	}
+
 	p{
 		margin-top: 0;
 		text-align: justify;

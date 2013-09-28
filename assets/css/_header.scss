@@ -115,7 +115,7 @@ header{
 			&,
 			&:visited{
 				display: block;
-				padding: $medium;
+				padding: $xsmall $small;
 				border-top: none;
 				border-top: 1px solid darken($main-color, 3%);
 

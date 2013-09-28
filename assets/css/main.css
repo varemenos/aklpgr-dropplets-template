@@ -858,7 +858,7 @@ header {
 }
 .nav .sub-nav a, .nav .sub-nav a:visited {
   display: block;
-  padding: 1rem;
+  padding: 0.25rem 0.5rem;
   border-top: none;
   border-top: 1px solid #2791d9;
 }
@@ -953,6 +953,9 @@ header {
   }
 }
 
+.post--details > *:first-child {
+  margin-top: 0;
+}
 .post--details p {
   margin-top: 0;
   text-align: justify;
