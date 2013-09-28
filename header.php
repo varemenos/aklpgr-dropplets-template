@@ -18,7 +18,9 @@
 					foreach (get_all_posts() as $post) {
 						$temp[trim($post['post_category'])] = true;
 					}
-					foreach (array_keys($temp) as $temp_category) {
+					$temp = array_keys($temp);
+					sort($temp);
+					foreach ($temp as $temp_category) {
 						?>
 							<li><a href="<?php echo $blog_url;?>category/<?php echo $temp_category; ?>"><?php echo $temp_category; ?></a></li>
 						<?php
