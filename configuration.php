@@ -29,24 +29,24 @@
 
 	$navigation = array();
 
-	$navigation[0] = [
+	$navigation[0] = array(
 		"url" => $blog_url,
 		"external" => false,
 		"content" => "<i class='icon-home'></i> Home",
 		"children" => false
-	];
+	);
 
-	$navigation[1] = [
+	$navigation[1] = array(
 		"url" => false,
 		"external" => false,
 		"content" => "<i class='icon-tags'></i> Categories",
 		"children" => getCategories()
-	];
+	);
 
-	$navigation[2] = [
+	$navigation[2] = array(
 		"url" => $blog_url . "rss",
 		"external" => true,
 		"content" => "<i class='icon-feed'></i> RSS",
 		"children" => false
-	];
+	);
 ?>
