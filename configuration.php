@@ -13,12 +13,12 @@
 			sort($temp);
 
 			foreach ($temp as $temp_category) {
-				array_push($result, [
+				array_push($result, array(
 					"url" => $blog_url . "category/" . $temp_category,
 					"external" => false,
 					"content" => $temp_category,
 					"children" => false
-				]);
+				));
 			}
 
 			unset($temp);
