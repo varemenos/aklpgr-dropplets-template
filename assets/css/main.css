@@ -1008,10 +1008,17 @@ pre[class*="language-"] {
   background-color: transparent;
 }
 
+#dp-dropplets-icon {
+  font-size: 1rem !important;
+}
 @media only screen and (max-width: 1139px) {
   #dp-dropplets-icon {
     background-color: #3498db !important;
     text-shadow: 0 0 10px transparent !important;
+    height: 3rem !important;
+    width: 3rem !important;
+    line-height: 3rem !important;
+    top: 1rem !important;
     left: auto !important;
     right: 1rem !important;
     position: absolute !important;

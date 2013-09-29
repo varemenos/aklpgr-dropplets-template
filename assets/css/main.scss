@@ -115,9 +115,15 @@ pre[class*="language-"]{
 }
 
 #dp-dropplets-icon{
+	font-size: $medium !important;
+
 	@media only screen and (max-width: 1139px){
 		background-color: $main-color !important;
 		text-shadow: 0 0 10px transparent !important;
+		height: $large * 1.5 !important;
+		width: $large * 1.5 !important;
+		line-height: $large * 1.5 !important;
+		top: $medium !important;
 		left: auto !important;
 		right: $medium !important;
 		position: absolute !important;
