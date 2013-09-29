@@ -14,7 +14,7 @@
 
 			foreach ($temp as $temp_category) {
 				array_push($result, array(
-					"url" => $blog_url . "category/" . $temp_category,
+					"url" => BLOG_URL . "category/" . $temp_category,
 					"external" => false,
 					"content" => $temp_category,
 					"children" => false
@@ -30,7 +30,7 @@
 	$navigation = array();
 
 	$navigation[0] = array(
-		"url" => $blog_url,
+		"url" => BLOG_URL,
 		"external" => false,
 		"content" => "<i class='icon-home'></i> Home",
 		"children" => false
@@ -44,7 +44,7 @@
 	);
 
 	$navigation[2] = array(
-		"url" => $blog_url . "rss",
+		"url" => BLOG_URL . "rss",
 		"external" => true,
 		"content" => "<i class='icon-feed'></i> RSS",
 		"children" => false
