@@ -804,18 +804,21 @@ header {
 .nav li {
   display: inline-block;
   position: relative;
+  margin-left: 0.5rem;
 }
 @media only screen and (max-width: 1139px) {
   .nav li {
     display: block;
+    margin-left: 0;
   }
 }
 .nav a, .nav a:visited {
   display: inline-block;
-  padding: 1rem;
+  padding: 0.75rem 1rem;
   color: white;
   text-shadow: 1px 1px 0 #9d9d9d;
   background-color: #3498db;
+  border: 1px solid #2384c6;
 }
 @media only screen and (max-width: 1139px) {
   .nav a, .nav a:visited {
@@ -824,6 +827,7 @@ header {
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
+    border: none;
   }
 }
 .nav a i, .nav a:visited i {
@@ -834,21 +838,18 @@ header {
 .nav .sub-nav {
   display: none;
   position: absolute;
-  left: 1rem;
   list-style: none;
   list-style-image: none;
   list-style-position: outside;
   min-width: 10vw;
   margin: 0;
   padding: 0;
-  border-top: 0.5rem solid transparent;
+  border-top: 2px solid transparent;
 }
 @media only screen and (max-width: 1139px) {
   .nav .sub-nav {
     display: block;
     position: relative;
-    top: 0;
-    left: 0;
     min-width: auto;
     border-top: none;
   }
@@ -860,7 +861,6 @@ header {
   display: block;
   padding: 0.25rem 0.5rem;
   border-top: none;
-  border-top: 1px solid #2791d9;
 }
 @media only screen and (max-width: 1139px) {
   .nav .sub-nav a, .nav .sub-nav a:visited {
@@ -888,14 +888,24 @@ header {
   margin-bottom: 0;
 }
 .post.single .post--meta ul {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
   background-color: #eeeeee;
+  border: 1px solid #e1e1e1;
 }
 
 .post--title h2 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
   margin-top: 0;
   margin-bottom: 1rem;
   padding: 1rem;
   background-color: #eeeeee;
+  border: 1px solid #e1e1e1;
   text-shadow: 0 1px 0 white;
 }
 .post--title a {
@@ -943,12 +953,14 @@ header {
 .post--actions a, .post--actions a:visited {
   display: block;
   color: white;
+  margin-right: 0.5rem;
   padding: 0.5rem;
   background-color: #3498db;
-  border-left: 1px solid white;
+  border: 1px solid #2384c6;
 }
 @media only screen and (max-width: 1139px) {
   .post--actions a, .post--actions a:visited {
+    margin: 1rem 0 0 0;
     padding: 1rem;
   }
 }
@@ -1006,6 +1018,15 @@ code {
 code[class*="language-"],
 pre[class*="language-"] {
   background-color: transparent;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #e1e1e1;
 }
 
 #dp-dropplets-icon {

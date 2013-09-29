@@ -6,33 +6,37 @@
 		</a>
 	</h1>
 	<ul id="navigation" class="nav float--right">
-		<li>
-			<a href="<?php echo $blog_url;?>"><i class="icon-home"></i> Home</a>
-		</li>
-		<?php if (get_all_posts()): ?>
-		<li>
-			<a href=""><i class="icon-tags"></i> Categories</a>
-			<ul class="sub-nav">
-				<?php
-					$temp = array();
-					foreach (get_all_posts() as $post) {
-						$temp[trim($post['post_category'])] = true;
-					}
-					$temp = array_keys($temp);
-					sort($temp);
-					foreach ($temp as $temp_category) {
-						?>
-							<li><a href="<?php echo $blog_url;?>category/<?php echo $temp_category; ?>"><?php echo $temp_category; ?></a></li>
-						<?php
-					}
-					unset($temp);
-				?>
-			</ul>
-		</li>
-		<?php endif ?>
-		<li>
-			<a href="<?php echo $blog_url;?>rss" target="_blank"><i class="icon-feed"></i> RSS</a>
-		</li>
+	<?php
+		for ($i = 0; $i < sizeof($navigation); $i++) {
+			$temp = "<li><a ";
+
+			if($navigation[$i]["url"] !== false){
+				$temp .= "href='" . $navigation[$i]["url"] . "'";
+			}
+
+			if($navigation[$i]["external"] !== false){
+				$temp .= " target='_blank'";
+			}
+
+			$temp .= ">" . $navigation[$i]["content"] . "</a>";
+
+
+			if($navigation[$i]["children"] !== false){
+				$temp .= "<ul class='sub-nav'>";
+
+				for ($j = 0; $j < sizeof($navigation[$i]['children']); $j++) {
+					$temp .= "<li><a href='" . $navigation[$i]['children'][$j]["url"] . "'>" . $navigation[$i]['children'][$j]["content"] . "</a></li>";
+				}
+
+				$temp .= "</ul>";
+			}
+
+			$temp .= "</li>";
+
+			echo $temp;
+			unset($temp);
+		}
+	?>
 	</ul>
 </header>
 <div id="content">

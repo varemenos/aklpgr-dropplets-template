@@ -58,9 +58,11 @@ header{
 	li{
 		display: inline-block;
 		position: relative;
+		margin-left: $small;
 
 		@media only screen and (max-width: 1139px){
 			display: block;
+			margin-left: 0;
 		}
 	}
 
@@ -68,14 +70,16 @@ header{
 		&,
 		&:visited{
 			display: inline-block;
-			padding: $medium;
+			padding: ($small * 1.5) $medium;
 			color: $font-color-inv;
 			text-shadow: 1px 1px 0 lighten($font-color, 35%);
 			background-color: $main-color;
+			border: 1px solid darken($main-color, 7.5%);
 
 			@media only screen and (max-width: 1139px){
 				@include borderbox;
 				width: 100%;
+				border: none;
 			}
 
 			i{
@@ -89,20 +93,17 @@ header{
 	.sub-nav{
 		display: none;
 		position: absolute;
-		left: $medium;
 		list-style: none;
 		list-style-image: none;
 		list-style-position: outside;
 		min-width: 10vw;
 		margin: 0;
 		padding: 0;
-		border-top: 0.5rem solid transparent;
+		border-top: 2px solid transparent;
 
 		@media only screen and (max-width: 1139px){
 			display: block;
 			position: relative;
-			top: 0;
-			left: 0;
 			min-width: auto;
 			border-top: none;
 		}
@@ -117,7 +118,6 @@ header{
 				display: block;
 				padding: $xsmall $small;
 				border-top: none;
-				border-top: 1px solid darken($main-color, 3%);
 
 				@media only screen and (max-width: 1139px){
 					padding: $medium $medium $medium $xlarge;

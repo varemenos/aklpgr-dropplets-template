@@ -14,6 +14,7 @@
 	</head>
 	<body>
 		<?php
+			include 'configuration.php';
 			include 'header.php';
 			echo $content;
 			include 'footer.php';

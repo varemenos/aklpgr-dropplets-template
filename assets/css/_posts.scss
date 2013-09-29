@@ -13,7 +13,9 @@
 
 		.post--meta{
 			ul{
+				@include borderbox;
 				background-color: $bgc2;
+				border: 1px solid darken($bgc2, 5%);
 			}
 		}
 	}
@@ -21,10 +23,12 @@
 
 .post--title{
 	h2{
+		@include borderbox;
 		margin-top: 0;
 		margin-bottom: $medium;
 		padding: $medium;
 		background-color: $bgc2;
+		border: 1px solid darken($bgc2, 5%);
 		text-shadow: 0 1px 0 $fgc;
 	}
 
@@ -71,11 +75,13 @@
 		&:visited{
 			display: block;
 			color: $font-color-inv;
+			margin-right: $small;
 			padding: $small;
 			background-color: $main-color;
-			border-left: 1px solid  $fgc;
+			border: 1px solid darken($main-color, 7.5%);
 
 			@media only screen and (max-width: 1139px){
+				margin: $medium 0 0 0;
 				padding: $medium;
 			}
 		}

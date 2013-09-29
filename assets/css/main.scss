@@ -114,6 +114,12 @@ pre[class*="language-"]{
 	background-color: transparent;
 }
 
+:not(pre) > code[class*="language-"],
+pre[class*="language-"]{
+	@include borderbox;
+	border: 1px solid darken($bgc2, 5%);
+}
+
 #dp-dropplets-icon{
 	font-size: $medium !important;
 
