@@ -58,7 +58,7 @@ header{
 	li{
 		display: inline-block;
 		position: relative;
-		margin-left: $small;
+		margin-left: $medium;
 
 		@media only screen and (max-width: 1139px){
 			display: block;
@@ -84,7 +84,7 @@ header{
 
 			i{
 				display: inline-block;
-				margin-right: $medium;
+				margin-right: $small;
 				text-decoration: none;
 			}
 		}
