@@ -29,6 +29,8 @@
 
 	$navigation = array();
 
+	// Navigation entries
+
 	$navigation[0] = array(
 		"url" => BLOG_URL,
 		"external" => false,

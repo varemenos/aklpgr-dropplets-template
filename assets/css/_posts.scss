@@ -100,6 +100,18 @@
 		text-indent: $medium;
 	}
 
+	a{
+		&,
+		&:visited{
+			text-decoration: underline;
+		}
+
+		&:focus,
+		&:hover{
+			color: $main-color;
+		}
+	}
+
 	@media only screen and (max-width: 1139px){
 		width: 100%;
 	}
