@@ -832,7 +832,7 @@ header {
 }
 .nav a i, .nav a:visited i {
   display: inline-block;
-  margin-right: 0.5rem;
+  margin-right: 1rem;
   text-decoration: none;
 }
 .nav .sub-nav {
