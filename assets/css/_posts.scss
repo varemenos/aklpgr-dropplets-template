@@ -32,11 +32,6 @@
 		text-shadow: 0 1px 0 $fgc;
 	}
 
-	img{
-		@include borderbox;
-		border: 1px solid darken($bgc2, 5%);
-	}
-
 	a{
 		display: inline-block;
 
@@ -49,8 +44,10 @@
 
 .post--aside{
 	img{
+		@include borderbox;
 		width: 100%;
 		height: auto;
+		border: 1px solid darken($bgc2, 5%);
 	}
 
 	@media only screen and (max-width: 1139px){
