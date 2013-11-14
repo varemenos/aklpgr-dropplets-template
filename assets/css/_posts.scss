@@ -91,12 +91,13 @@
 }
 
 .post--details{
+	line-height: $medium*1.5;
+
 	& > *:first-child{
 		margin-top: 0;
 	}
 
 	p{
-		line-height: $medium*1.5;
 		margin-top: 0;
 		text-align: justify;
 		word-wrap: break-word;
