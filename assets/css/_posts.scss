@@ -17,6 +17,10 @@
 				background-color: $bgc2;
 				border: 1px solid darken($bgc2, 5%);
 			}
+
+			li{
+				line-height: 1.5rem;
+			}
 		}
 	}
 }
