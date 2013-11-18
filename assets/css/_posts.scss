@@ -17,10 +17,6 @@
 				background-color: $bgc2;
 				border: 1px solid darken($bgc2, 5%);
 			}
-
-			li{
-				line-height: 1.5rem;
-			}
 		}
 	}
 }
@@ -135,4 +131,8 @@
 		margin: 0 0 $medium 0;
 		padding: $small;
 	}
+
+		li{
+			line-height: 1.5rem;
+		}
 }

@@ -748,8 +748,6 @@ header {
       box-sizing: border-box;
       background-color: #eeeeee;
       border: 1px solid #e1e1e1; }
-    .post.single .post--meta li {
-      line-height: 1.5rem; }
 
 .post--title h2 {
   -webkit-box-sizing: border-box;
@@ -832,6 +830,8 @@ header {
   list-style-position: outside;
   margin: 0 0 1rem 0;
   padding: 0.5rem; }
+.post--meta li {
+  line-height: 1.5rem; }
 
 footer p {
   margin: 0;
