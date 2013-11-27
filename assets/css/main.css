@@ -462,7 +462,7 @@ veGrid - Grid System by Adonis K.
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
-  padding-bottom: 1.5rem; }
+  padding-bottom: 1rem; }
   .row:before, .row:after {
     content: " ";
     display: table; }
@@ -479,7 +479,7 @@ veGrid - Grid System by Adonis K.
     box-sizing: border-box;
     display: block;
     float: left;
-    padding-right: 1.5rem; }
+    padding-right: 1rem; }
     .row > *:last-child {
       padding-right: 0; }
     @media only screen and (max-width: 1023px) {
@@ -487,7 +487,7 @@ veGrid - Grid System by Adonis K.
         width: 100%;
         float: none;
         padding: 0;
-        padding-bottom: 1.5rem; }
+        padding-bottom: 1rem; }
         .row > *:last-child {
           padding-bottom: 0; } }
 
@@ -588,7 +588,7 @@ body {
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
   font-family: 'FiraSans-Regular', 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
   color: #6a6a6a;
   background-color: #7f8c8d; }
@@ -617,8 +617,8 @@ footer {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-  margin-top: 1.5rem;
-  padding: 1.5rem;
+  margin-top: 1rem;
+  padding: 1rem;
   background-color: white; }
   @media only screen and (max-width: 1139px) {
     #content,
@@ -665,7 +665,7 @@ header {
 
 @media only screen and (max-width: 1139px) {
   #navigation {
-    margin-top: 1.5rem; } }
+    margin-top: 1rem; } }
 
 .nav {
   list-style: none;
@@ -676,14 +676,14 @@ header {
   .nav li {
     display: inline-block;
     position: relative;
-    margin-left: 1.5rem; }
+    margin-left: 1rem; }
     @media only screen and (max-width: 1139px) {
       .nav li {
         display: block;
         margin-left: 0; } }
   .nav a, .nav a:visited {
     display: inline-block;
-    padding: 1.125rem 1.5rem;
+    padding: 0.75rem 1rem;
     color: white;
     text-shadow: 1px 1px 0 #9d9d9d;
     background-color: #3498db;
@@ -698,7 +698,7 @@ header {
         border: none; } }
     .nav a i, .nav a:visited i {
       display: inline-block;
-      margin-right: 0.75rem;
+      margin-right: 0.5rem;
       text-decoration: none; }
   .nav .sub-nav {
     display: none;
@@ -720,11 +720,11 @@ header {
       display: block; }
     .nav .sub-nav a, .nav .sub-nav a:visited {
       display: block;
-      padding: 0.375rem 0.75rem;
+      padding: 0.25rem 0.5rem;
       border-top: none; }
       @media only screen and (max-width: 1139px) {
         .nav .sub-nav a, .nav .sub-nav a:visited {
-          padding: 1.5rem 1.5rem 1.5rem 6rem;
+          padding: 1rem 1rem 1rem 4rem;
           border: none; } }
   .nav li:hover .sub-nav {
     display: block; }
@@ -735,7 +735,7 @@ header {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   margin-bottom: 0;
-  padding-bottom: 1.5rem; }
+  padding-bottom: 1rem; }
   .post:last-child {
     margin-bottom: 0;
     padding-bottom: 0; }
@@ -755,8 +755,8 @@ header {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   margin-top: 0;
-  margin-bottom: 1.5rem;
-  padding: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
   background-color: #eeeeee;
   border: 1px solid #e1e1e1;
   text-shadow: 0 1px 0 white; }
@@ -798,24 +798,24 @@ header {
   .post--actions a, .post--actions a:visited {
     display: block;
     color: white;
-    margin-right: 0.75rem;
-    padding: 0.75rem;
+    margin-right: 0.5rem;
+    padding: 0.5rem;
     background-color: #3498db;
     border: 1px solid #2384c6; }
     @media only screen and (max-width: 1139px) {
       .post--actions a, .post--actions a:visited {
-        margin: 1.5rem 0 0 0;
-        padding: 1.5rem; } }
+        margin: 1rem 0 0 0;
+        padding: 1rem; } }
 
 .post--details {
-  line-height: 2.25rem; }
+  line-height: 1.5rem; }
   .post--details > *:first-child {
     margin-top: 0; }
   .post--details p {
     margin-top: 0;
     text-align: justify;
     word-wrap: break-word;
-    text-indent: 1.5rem; }
+    text-indent: 1rem; }
   .post--details a, .post--details a:visited {
     text-decoration: underline; }
   .post--details a:focus, .post--details a:hover {
@@ -828,8 +828,8 @@ header {
   list-style: none;
   list-style-image: none;
   list-style-position: outside;
-  margin: 0 0 1.5rem 0;
-  padding: 0.75rem; }
+  margin: 0 0 1rem 0;
+  padding: 0.5rem; }
 .post--meta li {
   line-height: 1.5rem; }
 
@@ -845,11 +845,11 @@ hr {
   border-right: none; }
 
 blockquote {
-  margin: 1.5rem 0;
-  border-left: 0.75rem solid #d4d4d4; }
+  margin: 1rem 0;
+  border-left: 0.5rem solid #d4d4d4; }
   blockquote > * {
-    margin: 0.75rem 0;
-    padding: 1.5rem;
+    margin: 0.5rem 0;
+    padding: 1rem;
     background-color: #eeeeee; }
 
 code {
@@ -868,17 +868,17 @@ pre[class*="language-"] {
   border: 1px solid #e1e1e1; }
 
 #dp-dropplets-icon {
-  font-size: 1.5rem !important; }
+  font-size: 1rem !important; }
   @media only screen and (max-width: 1139px) {
     #dp-dropplets-icon {
       background-color: #3498db !important;
       text-shadow: 0 0 10px transparent !important;
-      height: 4.5rem !important;
-      width: 4.5rem !important;
-      line-height: 4.5rem !important;
-      top: 1.5rem !important;
+      height: 3rem !important;
+      width: 3rem !important;
+      line-height: 3rem !important;
+      top: 1rem !important;
       left: auto !important;
-      right: 1.5rem !important;
+      right: 1rem !important;
       position: absolute !important; }
       #dp-dropplets-icon:focus, #dp-dropplets-icon:hover {
         -webkit-box-shadow: inset 0 0 20px #196090 !important;
