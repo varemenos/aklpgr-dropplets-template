@@ -618,7 +618,6 @@ footer {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   margin-top: 1rem;
-  padding: 1rem;
   background-color: white; }
   @media only screen and (max-width: 1139px) {
     #content,
@@ -626,12 +625,15 @@ footer {
     footer {
       margin-top: 0; } }
 
-@media only screen and (max-width: 1139px) {
-  #content {
-    width: 100%; } }
+#content {
+  padding: 2rem; }
+  @media only screen and (max-width: 1139px) {
+    #content {
+      width: 100%; } }
 
 header {
-  position: relative; }
+  position: relative;
+  padding: 1rem; }
   @media only screen and (max-width: 1139px) {
     header > #brand, header > .nav {
       width: 100%;
@@ -756,7 +758,7 @@ header {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   padding: 1rem;
   background-color: #eeeeee;
   border: 1px solid #e1e1e1;
@@ -834,10 +836,12 @@ header {
 .post--meta li {
   line-height: 1.5rem; }
 
-footer p {
-  margin: 0;
-  padding: 0;
-  text-align: center; }
+footer {
+  padding: 1rem; }
+  footer p {
+    margin: 0;
+    padding: 0;
+    text-align: center; }
 
 hr {
   border-top: 2px dashed rgba(0, 0, 0, 0.2);

@@ -68,7 +68,6 @@ header,
 footer{
 	@include borderbox;
 	margin-top: $medium;
-	padding: $medium;
 	background-color: $fgc;
 
 	@media only screen and (max-width: 1139px){
@@ -77,6 +76,8 @@ footer{
 }
 
 #content{
+	padding: $large;
+
 	@media only screen and (max-width: 1139px){
 		width: 100%;
 	}
