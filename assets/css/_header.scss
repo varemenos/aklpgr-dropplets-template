@@ -70,7 +70,7 @@ header{
 		&,
 		&:visited{
 			display: inline-block;
-			padding: ($small * 1.5) $medium;
+			padding: $small $medium;
 			color: $font-color;
 
 			@media only screen and (max-width: 1139px){
@@ -94,6 +94,7 @@ header{
 		list-style-image: none;
 		list-style-position: outside;
 		min-width: 10vw;
+		max-width: 0;
 		margin: 0;
 		padding: 0;
 		border-top: 2px solid transparent;
@@ -114,6 +115,7 @@ header{
 			&:visited{
 				display: block;
 				padding: $small;
+			color: $font-color-inv;
 				background-color: $bgc;
 				text-shadow: 1px 1px 0 lighten($font-color, 35%);
 				border-top: none;
