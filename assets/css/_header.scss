@@ -71,9 +71,7 @@ header{
 		&:visited{
 			display: inline-block;
 			padding: ($small * 1.5) $medium;
-			color: $font-color-inv;
-			text-shadow: 1px 1px 0 lighten($font-color, 35%);
-			border: 1px solid darken($bgc, 7.5%);
+			color: $font-color;
 
 			@media only screen and (max-width: 1139px){
 				@include borderbox;
@@ -117,6 +115,7 @@ header{
 				display: block;
 				padding: $small;
 				background-color: $bgc;
+				text-shadow: 1px 1px 0 lighten($font-color, 35%);
 				border-top: none;
 
 				@media only screen and (max-width: 1139px){
