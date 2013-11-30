@@ -677,8 +677,7 @@ header {
   padding: 0; }
   .nav li {
     display: inline-block;
-    position: relative;
-    margin-left: 1rem; }
+    position: relative; }
     @media only screen and (max-width: 1139px) {
       .nav li {
         display: block;
