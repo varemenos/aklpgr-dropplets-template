@@ -73,8 +73,8 @@ header{
 			padding: ($small * 1.5) $medium;
 			color: $font-color-inv;
 			text-shadow: 1px 1px 0 lighten($font-color, 35%);
-			background-color: $main-color;
-			border: 1px solid darken($main-color, 7.5%);
+			background-color: $bgc;
+			border: 1px solid darken($bgc, 7.5%);
 
 			@media only screen and (max-width: 1139px){
 				@include borderbox;

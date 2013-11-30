@@ -7,7 +7,6 @@ Based on Simple v1.0.2 by Jason Schuller (Jason.sc)
 
 $font-color: #444;
 $font-color-inv: #fff;
-$main-color: #3498db;
 $bgc: #7f8c8d;
 $bgc2: #eee;
 $fgc: #fff;
@@ -124,7 +123,7 @@ pre[class*="language-"]{
 	font-size: $medium !important;
 
 	@media only screen and (max-width: 1139px){
-		background-color: $main-color !important;
+		background-color: $bgc !important;
 		text-shadow: 0 0 10px transparent !important;
 		height: $large * 1.5 !important;
 		width: $large * 1.5 !important;
@@ -136,7 +135,7 @@ pre[class*="language-"]{
 
 		&:focus,
 		&:hover{
-			@include box-shadow(inset 0 0 20px darken($main-color, 20%) !important);
+			@include box-shadow(inset 0 0 20px darken($bgc, 20%) !important);
 		}
 	}
 }
