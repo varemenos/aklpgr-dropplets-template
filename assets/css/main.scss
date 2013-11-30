@@ -21,7 +21,7 @@ $xlarge: 4*$medium;
 @import 'lib/generic/_box-shadow';
 @import 'lib/modules/_grid';
 @import 'lib/modules/_blockquote';
-@include grid(12, $medium);
+@include grid(12, $large);
 
 @import '_fonts';
 
