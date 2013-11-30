@@ -686,8 +686,8 @@ header {
     padding: 0.75rem 1rem;
     color: white;
     text-shadow: 1px 1px 0 #9d9d9d;
-    background-color: #3498db;
-    border: 1px solid #2384c6; }
+    background-color: #31656e;
+    border: 1px solid #254d54; }
     @media only screen and (max-width: 1139px) {
       .nav a, .nav a:visited {
         -webkit-box-sizing: border-box;
@@ -800,8 +800,8 @@ header {
     color: white;
     margin-right: 0.5rem;
     padding: 0.5rem;
-    background-color: #3498db;
-    border: 1px solid #2384c6; }
+    background-color: #31656e;
+    border: 1px solid #254d54; }
     @media only screen and (max-width: 1139px) {
       .post--actions a, .post--actions a:visited {
         margin: 1rem 0 0 0;
@@ -819,7 +819,7 @@ header {
   .post--details a, .post--details a:visited {
     text-decoration: underline; }
   .post--details a:focus, .post--details a:hover {
-    color: #3498db; }
+    color: #31656e; }
   @media only screen and (max-width: 1139px) {
     .post--details {
       width: 100%; } }
@@ -871,7 +871,7 @@ pre[class*="language-"] {
   font-size: 1rem !important; }
   @media only screen and (max-width: 1139px) {
     #dp-dropplets-icon {
-      background-color: #3498db !important;
+      background-color: #31656e !important;
       text-shadow: 0 0 10px transparent !important;
       height: 3rem !important;
       width: 3rem !important;
@@ -881,9 +881,9 @@ pre[class*="language-"] {
       right: 1rem !important;
       position: absolute !important; }
       #dp-dropplets-icon:focus, #dp-dropplets-icon:hover {
-        -webkit-box-shadow: inset 0 0 20px #196090 !important;
-        -moz-box-shadow: inset 0 0 20px #196090 !important;
-        box-shadow: inset 0 0 20px #196090 !important; } }
+        -webkit-box-shadow: inset 0 0 20px #122427 !important;
+        -moz-box-shadow: inset 0 0 20px #122427 !important;
+        box-shadow: inset 0 0 20px #122427 !important; } }
 
 /**
  * prism.js default theme for JavaScript, CSS and HTML
