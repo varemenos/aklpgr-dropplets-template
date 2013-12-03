@@ -590,7 +590,7 @@ body {
   margin-right: auto;
   padding-bottom: 1rem;
   font-family: 'FiraSans-Regular', 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
-  color: #6a6a6a;
+  color: #595959;
   background-color: #7f8c8d; }
   @media only screen and (max-width: 1139px) {
     body {
@@ -598,7 +598,7 @@ body {
 
 a, a:visited {
   text-decoration: none;
-  color: #444444; }
+  color: #333333; }
 a:focus, a:hover {
   text-decoration: underline; }
 
@@ -685,7 +685,7 @@ header {
   .nav a, .nav a:visited {
     display: inline-block;
     padding: 0.5rem 1rem;
-    color: #444444; }
+    color: #333333; }
     @media only screen and (max-width: 1139px) {
       .nav a, .nav a:visited {
         -webkit-box-sizing: border-box;
@@ -722,7 +722,7 @@ header {
       padding: 0.5rem;
       color: white;
       background-color: #7f8c8d;
-      text-shadow: 1px 1px 0 #9d9d9d;
+      text-shadow: 1px 1px 0 #8c8c8c;
       border-top: none; }
       @media only screen and (max-width: 1139px) {
         .nav .sub-nav a, .nav .sub-nav a:visited {
