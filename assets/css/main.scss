@@ -11,11 +11,11 @@ $bgc: #7f8c8d;
 $bgc2: #eee;
 $fgc: #fff;
 $medium: 1rem;
-$lmedium: $medium/1.5;
-$small: $medium/2;
-$xsmall: $medium/4;
-$large: 2*$medium;
-$xlarge: 4*$medium;
+$lmedium: $medium * 0.75;
+$small: $medium * 0.5;
+$xsmall: $medium * 0.25;
+$large: $medium * 2;
+$xlarge: $medium * 4;
 
 @import 'lib/generic/_base';
 @import 'lib/generic/_borderbox';
