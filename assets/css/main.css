@@ -758,7 +758,8 @@ h6 {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 0 0 1rem 0; }
+  margin: 0 0 1rem 0;
+  line-height: 3rem; }
 .post--title a {
   display: inline-block; }
   .post--title a:focus, .post--title a:hover {

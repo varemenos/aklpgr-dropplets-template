@@ -27,6 +27,7 @@
 	h1{
 		@include borderbox;
 		margin:  0 0 $medium 0;
+		line-height: $xlarge;
 	}
 
 	a{

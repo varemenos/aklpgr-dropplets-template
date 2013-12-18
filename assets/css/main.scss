@@ -15,7 +15,8 @@ $lmedium: $medium * 0.75;
 $small: $medium * 0.5;
 $xsmall: $medium * 0.25;
 $large: $medium * 2;
-$xlarge: $medium * 4;
+$xlarge: $medium * 3;
+$xxlarge: $medium * 4;
 
 @import 'lib/generic/_base';
 @import 'lib/generic/_borderbox';
