@@ -1,7 +1,7 @@
 <article class="single post">
-	<div class="post--title">
+	<header class="post--title">
 		<h1><?php echo($post_title); ?></h1>
-	</div>
+	</header>
 
 	<div class="row">
 		<aside class="col-3-12 post--aside">
