@@ -1,6 +1,6 @@
 <article class="post">
 	<div class="post--title">
-		<h2><a href="<?php echo($post_link); ?>"><?php echo($post_title); ?></a></h2>
+		<h1><a href="<?php echo($post_link); ?>"><?php echo($post_title); ?></a></h1>
 	</div>
 
 	<div class="row">

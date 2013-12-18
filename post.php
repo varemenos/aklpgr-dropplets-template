@@ -1,6 +1,6 @@
 <article class="single post">
 	<div class="post--title">
-		<h2><?php echo($post_title); ?></h2>
+		<h1><?php echo($post_title); ?></h1>
 	</div>
 
 	<div class="row">

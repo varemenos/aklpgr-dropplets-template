@@ -22,6 +22,12 @@
 }
 
 .post--title{
+	h1{
+		@include borderbox;
+		margin-top: 0;
+		margin-bottom: $large;
+	}
+
 	h2{
 		@include borderbox;
 		margin-top: 0;

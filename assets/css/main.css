@@ -751,6 +751,13 @@ header {
       background-color: #eeeeee;
       border: 1px solid #e1e1e1; }
 
+.post--title h1 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 2rem; }
 .post--title h2 {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
