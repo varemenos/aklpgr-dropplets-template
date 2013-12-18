@@ -799,11 +799,13 @@ h6 {
         float: none; } }
   .post--actions a, .post--actions a:visited {
     display: block;
-    color: white;
     margin-right: 0.5rem;
-    padding: 1rem;
+    padding: 0.66667rem;
+    font-size: 0.66667rem;
+    color: white;
     background-color: #7f8c8d;
-    border: 1px solid #6c797a; }
+    border: 1px solid #6c797a;
+    border-radius: 2px; }
     @media only screen and (max-width: 1139px) {
       .post--actions a, .post--actions a:visited {
         margin: 1rem 0 0 0;
