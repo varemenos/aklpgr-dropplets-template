@@ -611,8 +611,8 @@ h6 {
   font-family: 'FiraSans-Bold', 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif; }
 
 #content,
-header,
-footer {
+#header,
+#footer {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -621,8 +621,8 @@ footer {
   background-color: white; }
   @media only screen and (max-width: 1139px) {
     #content,
-    header,
-    footer {
+    #header,
+    #footer {
       margin-top: 0; } }
 
 #content {
@@ -631,11 +631,11 @@ footer {
     #content {
       width: 100%; } }
 
-header {
+#header {
   position: relative;
   padding: 1rem; }
   @media only screen and (max-width: 1139px) {
-    header > #brand, header > .nav {
+    #header > #brand, #header > .nav {
       width: 100%;
       float: none; } }
 
@@ -835,9 +835,9 @@ header {
 .post--meta li {
   line-height: 1.5rem; }
 
-footer {
+#footer {
   padding: 1rem; }
-  footer p {
+  #footer p {
     margin: 0;
     padding: 0;
     text-align: center; }

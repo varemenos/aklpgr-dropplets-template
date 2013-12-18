@@ -64,8 +64,8 @@ h6{
 }
 
 #content,
-header,
-footer{
+#header,
+#footer{
 	@include borderbox;
 	margin-top: $medium;
 	background-color: $fgc;
