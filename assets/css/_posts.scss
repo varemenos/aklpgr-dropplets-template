@@ -26,12 +26,6 @@
 		@include borderbox;
 		margin-top: 0;
 		margin-bottom: $large;
-	}
-
-	h2{
-		@include borderbox;
-		margin-top: 0;
-		margin-bottom: $large;
 		padding: $medium;
 		background-color: $bgc2;
 		border: 1px solid darken($bgc2, 5%);
