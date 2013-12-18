@@ -1,5 +1,6 @@
 .post{
 	@include borderbox;
+	margin-top: $medium;
 	margin-bottom: 0;
 	padding-bottom: $medium;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -25,7 +26,7 @@
 .post--title{
 	h1{
 		@include borderbox;
-		margin: $medium 0;
+		margin:  0 0 $medium 0;
 	}
 
 	a{
