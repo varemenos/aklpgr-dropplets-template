@@ -77,7 +77,7 @@ h6{
 }
 
 #content{
-	padding: $large;
+	padding: $medium $large $large $large;
 
 	@media only screen and (max-width: 1139px){
 		width: 100%;

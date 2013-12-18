@@ -2,6 +2,7 @@
 	@include borderbox;
 	margin-bottom: 0;
 	padding-bottom: $medium;
+	border-bottom: 1px solid $bgc;
 
 	&:last-child{
 		margin-bottom: 0;
@@ -24,12 +25,7 @@
 .post--title{
 	h1{
 		@include borderbox;
-		margin-top: 0;
-		margin-bottom: $large;
-		padding: $medium;
-		background-color: $bgc2;
-		border: 1px solid darken($bgc2, 5%);
-		text-shadow: 0 1px 0 $fgc;
+		margin: 0 $medium;
 	}
 
 	a{
