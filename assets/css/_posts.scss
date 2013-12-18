@@ -2,7 +2,7 @@
 	@include borderbox;
 	margin-bottom: 0;
 	padding-bottom: $medium;
-	border-bottom: 1px solid $bgc;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 
 	&:last-child{
 		margin-bottom: 0;
@@ -25,7 +25,7 @@
 .post--title{
 	h1{
 		@include borderbox;
-		margin: 0 $medium;
+		margin: $medium 0;
 	}
 
 	a{
