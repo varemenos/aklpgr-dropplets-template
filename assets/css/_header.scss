@@ -97,7 +97,11 @@
 		max-width: 0;
 		margin: 0;
 		padding: 0;
-		border-top: 2px solid transparent;
+		border-top: none;
+		border-left: 2px solid $bgc;
+		border-bottom: 2px solid $bgc;
+		border-right: 2px solid $bgc;
+		@include box-shadow(0 3px 5px $bgc);
 
 		@media only screen and (max-width: 1139px){
 			display: block;
@@ -115,9 +119,8 @@
 			&:visited{
 				display: block;
 				padding: $small;
-			color: $font-color-inv;
-				background-color: $bgc;
-				text-shadow: 1px 1px 0 lighten($font-color, 35%);
+				color: $font-color;
+				background-color: $fgc;
 				border-top: none;
 
 				@media only screen and (max-width: 1139px){

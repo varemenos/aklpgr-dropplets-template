@@ -708,7 +708,13 @@ h6 {
     max-width: 0;
     margin: 0;
     padding: 0;
-    border-top: 2px solid transparent; }
+    border-top: none;
+    border-left: 2px solid #7f8c8d;
+    border-bottom: 2px solid #7f8c8d;
+    border-right: 2px solid #7f8c8d;
+    -webkit-box-shadow: 0 3px 5px #7f8c8d;
+    -moz-box-shadow: 0 3px 5px #7f8c8d;
+    box-shadow: 0 3px 5px #7f8c8d; }
     @media only screen and (max-width: 1139px) {
       .nav .sub-nav {
         display: block;
@@ -720,9 +726,8 @@ h6 {
     .nav .sub-nav a, .nav .sub-nav a:visited {
       display: block;
       padding: 0.5rem;
-      color: white;
-      background-color: #7f8c8d;
-      text-shadow: 1px 1px 0 #8c8c8c;
+      color: #333333;
+      background-color: white;
       border-top: none; }
       @media only screen and (max-width: 1139px) {
         .nav .sub-nav a, .nav .sub-nav a:visited {
