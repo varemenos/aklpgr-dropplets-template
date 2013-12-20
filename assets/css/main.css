@@ -742,7 +742,8 @@ h6 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
   .post:last-child {
     margin-bottom: 0;
-    padding-bottom: 0; }
+    padding-bottom: 0;
+    border-bottom: none; }
   .post.single {
     margin-bottom: 0; }
     .post.single .post--meta ul {
