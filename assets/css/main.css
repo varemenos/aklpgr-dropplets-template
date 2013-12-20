@@ -750,7 +750,8 @@ h6 {
     padding-bottom: 0;
     border-bottom: none; }
   .post.single {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    border-bottom: none; }
     .post.single .post--meta ul {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
