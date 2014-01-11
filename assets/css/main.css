@@ -891,6 +891,7 @@ pre[class*="language-"] {
   font-size: 1rem !important; }
   @media only screen and (max-width: 1139px) {
     #dp-dropplets-icon {
+      display: inline-block !important;
       background-color: #7f8c8d !important;
       text-shadow: 0 0 10px transparent !important;
       height: 3rem !important;

@@ -126,6 +126,7 @@ pre[class*="language-"]{
 	font-size: $medium !important;
 
 	@media only screen and (max-width: 1139px){
+		display: inline-block !important;
 		background-color: $bgc !important;
 		text-shadow: 0 0 10px transparent !important;
 		height: $large * 1.5 !important;
