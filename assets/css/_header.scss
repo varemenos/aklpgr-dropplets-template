@@ -53,6 +53,7 @@
 	list-style: none;
 	list-style-image: none;
 	list-style-position: outside;
+	float: right;
 	margin: 0;
 	padding: 0;
 
@@ -106,8 +107,11 @@
 		@media only screen and (max-width: 1139px){
 			display: block;
 			position: relative;
-			min-width: none;
-			border-top: none;
+			min-width: 0;
+			border-left: none;
+			border-bottom: none;
+			border-right: none;
+			@include box-shadow(none);
 		}
 
 		li{

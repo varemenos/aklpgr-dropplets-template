@@ -673,6 +673,7 @@ h6 {
   list-style: none;
   list-style-image: none;
   list-style-position: outside;
+  float: right;
   margin: 0;
   padding: 0; }
   .nav li {
@@ -719,8 +720,13 @@ h6 {
       .nav .sub-nav {
         display: block;
         position: relative;
-        min-width: none;
-        border-top: none; } }
+        min-width: 0;
+        border-left: none;
+        border-bottom: none;
+        border-right: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none; } }
     .nav .sub-nav li {
       display: block; }
     .nav .sub-nav a, .nav .sub-nav a:visited {
