@@ -676,6 +676,9 @@ h6 {
   float: right;
   margin: 0;
   padding: 0; }
+  @media only screen and (max-width: 1139px) {
+    .nav {
+      float: none; } }
   .nav li {
     display: inline-block;
     position: relative; }

@@ -6,7 +6,7 @@
 		</a>
 	</h1>
 	<nav>
-		<ul id="navigation" class="nav float--right">
+		<ul id="navigation" class="nav">
 		<?php
 			for ($i = 0; $i < sizeof($navigation); $i++) {
 				$temp = "<li><a ";
