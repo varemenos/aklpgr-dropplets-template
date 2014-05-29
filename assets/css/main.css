@@ -496,19 +496,16 @@ veGrid - Grid System by Adonis K.
   src: url("../fonts/FiraSans-Regular.woff") format("woff"), url("../fonts/FiraSans-Regular.svg#FiraSans-Regular") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: "FiraSans-Bold";
   src: url("../fonts/FiraSans-Bold.woff") format("woff"), url("../fonts/FiraSans-Bold.svg#FiraSans-Bold") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: "icomoon";
   src: url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.svg#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 .icon-feed, .icon-home, .icon-tags, .icon-menu, .icon-calendar, .icon-quotes-left, .icon-spinner, .icon-facebook, .icon-twitter, .icon-google-plus, .icon-youtube, .icon-vimeo, .icon-github, .icon-android, .icon-windows, .icon-linkedin, .icon-chrome, .icon-firefox, .icon-IE, .icon-opera, .icon-safari {
   font-family: 'icomoon';
   speak: none;
@@ -609,6 +606,15 @@ h4,
 h5,
 h6 {
   font-family: 'FiraSans-Bold', 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif; }
+
+h1 {
+  font-size: 3rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.56rem; }
 
 #content,
 #header,
