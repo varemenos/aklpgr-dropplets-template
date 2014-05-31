@@ -876,6 +876,7 @@ blockquote {
     background-color: #eeeeee; }
 
 code {
+  word-wrap: break-word;
   background-color: rgba(0, 0, 0, 0.05); }
 
 code[class*="language-"],
