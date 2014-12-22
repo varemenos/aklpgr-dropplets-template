@@ -595,7 +595,7 @@ body {
 
 a, a:visited {
   text-decoration: none;
-  color: #333333; }
+  color: #333; }
 a:focus, a:hover {
   text-decoration: underline; }
 
@@ -611,6 +611,9 @@ h1 {
   font-size: 2.5rem; }
 
 h2 {
+  font-size: 2rem; }
+
+h3 {
   font-size: 1.56rem; }
 
 #content,
@@ -621,7 +624,7 @@ h2 {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   margin-top: 1rem;
-  background-color: white; }
+  background-color: #fff; }
   @media only screen and (max-width: 1139px) {
     #content,
     #header,
@@ -693,7 +696,7 @@ h2 {
   .nav a, .nav a:visited {
     display: inline-block;
     padding: 0.5rem 1rem;
-    color: #333333; }
+    color: #333; }
     @media only screen and (max-width: 1139px) {
       .nav a, .nav a:visited {
         -webkit-box-sizing: border-box;
@@ -739,8 +742,8 @@ h2 {
     .nav .sub-nav a, .nav .sub-nav a:visited {
       display: block;
       padding: 0.5rem;
-      color: #333333;
-      background-color: white;
+      color: #333;
+      background-color: #fff;
       border-top: none; }
       @media only screen and (max-width: 1139px) {
         .nav .sub-nav a, .nav .sub-nav a:visited {
@@ -770,7 +773,7 @@ h2 {
       -moz-box-sizing: border-box;
       -ms-box-sizing: border-box;
       box-sizing: border-box;
-      background-color: #eeeeee;
+      background-color: #eee;
       border: 1px solid #e1e1e1; }
 
 .post--title h1 {
@@ -820,7 +823,7 @@ h2 {
     margin-right: 0.5rem;
     padding: 0.75rem;
     font-size: 0.75rem;
-    color: white;
+    color: #fff;
     background-color: #7f8c8d;
     border: 1px solid #6c797a;
     border-radius: 2px; }
@@ -874,7 +877,7 @@ blockquote {
   blockquote > * {
     margin: 0.5rem 0;
     padding: 1rem;
-    background-color: #eeeeee; }
+    background-color: #eee; }
 
 code {
   word-wrap: break-word;
@@ -1042,3 +1045,5 @@ pre.line-numbers > code {
   display: block;
   padding-right: 0.8em;
   text-align: right; }
+
+/*# sourceMappingURL=main.css.map */
