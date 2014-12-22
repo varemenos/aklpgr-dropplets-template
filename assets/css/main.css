@@ -611,7 +611,9 @@ h1 {
   font-size: 2.5rem; }
 
 h2 {
-  font-size: 2rem; }
+  font-size: 2rem;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em; }
 
 h3 {
   font-size: 1.56rem; }
