@@ -28,7 +28,7 @@
 .post--title{
 	h1{
 		@include borderbox;
-		margin:  0 0 $medium 0;
+		margin:  $xlarge/2 0 $xlarge 0;
 		line-height: $xlarge;
 	}
 
