@@ -1,8 +1,8 @@
 .post{
 	@include borderbox;
-	margin-top: $medium;
+	margin-top: $xlarge/2;
 	margin-bottom: 0;
-	padding-bottom: $medium;
+	padding-bottom: $xlarge/2;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 
 	&:last-child{
